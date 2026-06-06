@@ -1,0 +1,17 @@
+/* Element Selector - applies to all h1 */
+h1 {
+    color: #6B46C1; /* Purple */
+    text-align: center;
+}
+
+/* Class Selector - applies to.skills */
+.skills {
+    background-color: #F3E8FF; /* Light purple */
+    padding: 10px;
+}
+
+/* ID Selector - applies to #name only */
+#name {
+    font-size: 32px;
+    font-weight: bold;
+}
