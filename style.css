@@ -15,3 +15,30 @@ h1 {
     font-size: 32px;
     font-weight: bold;
 }
+/* The Box Model */
+.skills {
+    background-color: #F3E8FF;
+    
+    /* 1. CONTENT = your text already there */
+    
+    /* 2. PADDING = space inside box */
+    padding: 20px; /* 20px space between text and border */
+    
+    /* 3. BORDER = line around box */
+    border: 3px solid #6B46C1; /* 3px thick purple line */
+    
+    /* 4. MARGIN = space outside box */
+    margin: 30px; /* Pushes other content 30px away */
+}
+
+/* Make everything centered and clean */
+body {
+    max-width: 600px;  /* Don't let site be too wide */
+    margin: 0 auto;    /* Auto = center the whole page */
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Clean font */
+}
+
+#name {
+    margin-bottom: 10px; /* Space below your name */
+}
