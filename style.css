@@ -56,12 +56,19 @@ body {
 .navbar {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    width: 97%;
     background: white;
-    padding: 15px 30px;
+    display: flex; /* FLEXBOX ON */
+    justify-content: space-between; /* Logo left, links right */
+    align-items: center; /* Vertically center */
+    padding: 15px 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    z-index: 1000;
+}
+
+.nav-links a {
+    margin-left: 20px; /* Space between links */
+    text-decoration: none;
+    color: #333;
 }
 
 .navbar h2 {
@@ -72,4 +79,19 @@ body {
 
 body {
     padding-top: 70px;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    padding: 40px;
+    flex-wrap: wrap; /* KEY LINE: Wrap on small screen */
+}
+
+.card {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
 }
